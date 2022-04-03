@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*Header Styles*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Added the navigation and removed the div*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -74,10 +74,11 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Removed the repeating styles for the different benefits content (benefit-lead, benefit-brand, benefit-cost) and condensed the styles into 4 classes labled benefits, benefit-color, benefit-text and benefit-icon*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
+    padding-bottom: 45px; /*added additional padding to align the bottom of this sidebar with the bottom of the social media marketing container*/
     clear: both;
     float: right;
     width: 20%;
@@ -101,10 +102,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Removed the repeating styles for the different services content (search engine optimization, social media marketing and online rep management) and condensed the styles into 3 classes labled services, services-pics, and services-text*/
 .services {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 50px; 
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
